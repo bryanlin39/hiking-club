@@ -1,0 +1,16 @@
+{ "members": [{
+    "name": "Johnny",
+    "age": 26,
+    "location": "Seattle, WA",
+    "bio": "Looking for long treks to alpine lakes.",
+    "date": "Mon Jun 5 2017",
+    "miles": 100
+  }, {
+    "name": "Susie",
+    "age": 23,
+    "location": "Portland, OR",
+    "bio": "New to hiking.",
+    "date": "Fri Jun 9 2017",
+    "miles": 3
+  }]
+}
