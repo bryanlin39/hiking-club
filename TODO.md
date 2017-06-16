@@ -1,7 +1,7 @@
 # Hiking Club Application Planning
 
 ### Core Functionality
-- [ ] Model for Member class - name, age, location, bio, date joined, miles hiked
+- [x] Model for Member class - name, age, location, bio, date joined, miles hiked
 - [x] Set up Firebase database
 - [ ] List all members
 - [ ] Member detail page
