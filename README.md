@@ -1,28 +1,55 @@
-# HikingClub
+# Northwest Hiking Club
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+#### Web app using JavaScript, Angular 2, and Firebase | June 16, 2017
 
-## Development server
+### By Bryan Lin
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+Northwest Hiking Club is a web application for members of the Northwest Hiking Club. Admins can add new members, update existing member profiles, or remove a member from the club. The application is built with JavaScript and Angular 2, and all data is hosted on Firebase.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Setup/Installation Requirements
 
-## Build
+* You will need the following things properly installed on your computer:
+  * [Git](https://git-scm.com/)
+  * [Node.js](https://nodejs.org/) (with NPM)
+  * [Angular 2](https://angular.io/)
+* Clone the repository: "git clone https://github.com/bryanlin39/hiking-club"
+* Navigate to the project directory: "cd hiking-club"
+* Run "npm install -g @angular/cli@1.0.0" to install the Angular command line interface
+* Run "npm list -g typescript" to install TypeScript
+* Run "npm install" in the terminal to install all other Node packages and dependencies
+* Run "bower install" in the terminal to install front-end Bower packages
+* Run "ng serve" in the terminal to launch the server
+* Visit "http://localhost:4200" to access the app
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Known Bugs
 
-## Running unit tests
+None
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and Contact Information
 
-## Running end-to-end tests
+For any comments or concerns, please email Bryan at bryanlin39@gmail.com.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Technologies Used
 
-## Further help
+* JavaScript
+* Angular 2
+* Firebase
+* Node.js
+  * Node package manager (npm)
+* HTML
+* CSS
+* Bootstrap
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2017 Bryan Lin
