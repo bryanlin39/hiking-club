@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.new-input-field {
+input, textarea {
   width: 100%;
 }
 

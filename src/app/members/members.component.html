@@ -2,6 +2,9 @@
 
 <h4>
   <ul *ngFor='let member of members | async'>
-    <li><span class='member-name' (click)='goToMemberDetail(member)'>{{member.name}}</span> - <small>{{member.age}} | {{member.location}}</small></li>
+    <li>
+      <span class='member-name' (click)='goToMemberDetail(member)'>{{member.name}}</span> - <small>{{member.age}} | {{member.location}}</small>
+      <button *ngIf='currentRoute === "/admin"' class='btn btn-primary btn-sm' (click)='goToUpdate(member)'>Update</button>
+    </li>
   </ul>
 </h4>

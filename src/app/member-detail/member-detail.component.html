@@ -15,6 +15,10 @@
         <h5><b>Date Joined: </b>{{(memberToDisplay | async)?.date}}</h5>
         <h5><b>Miles Hiked: </b>{{(memberToDisplay | async)?.miles}}</h5>
       </div>
-    </div>
-  </div>
+    </div><!-- row -->
+  </div><!-- panel body -->
+</div><!-- panel -->
+
+<div *ngIf='currentRoute.includes("/update")'>
+  <app-update-member [memberToUpdate]='memberToDisplay | async'></app-update-member>
 </div>

@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 })
 export class MembersComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(private memberService: MemberService, private router: Router) { }
 
@@ -21,6 +22,10 @@ export class MembersComponent implements OnInit {
 
   goToMemberDetail(clickedMember) {
     this.router.navigate(['members', clickedMember.$key]);
+  }
+
+  goToUpdate(clickedMember) {
+    this.router.navigate(['members', clickedMember.$key, 'update']);
   }
 
 }
