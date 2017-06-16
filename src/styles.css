@@ -6,3 +6,11 @@
   background-color: #f5f5f5;
   padding: 15px;
 }
+
+#members-title {
+  margin-bottom: 40px;
+}
+
+.member-name {
+  font-weight: 600;
+}

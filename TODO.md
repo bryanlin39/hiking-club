@@ -3,7 +3,7 @@
 ### Core Functionality
 - [x] Model for Member class - name, age, location, bio, date joined, miles hiked
 - [x] Set up Firebase database
-- [ ] List all members
+- [x] List all members
 - [ ] Member detail page
 - [ ] Add new members
 - [ ] Edit and remove members
