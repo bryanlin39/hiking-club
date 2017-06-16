@@ -7,10 +7,27 @@
   padding: 15px;
 }
 
-#members-title {
+.section-title {
   margin-bottom: 40px;
 }
 
 .member-name {
   font-weight: 600;
+}
+
+.member-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#new-member-form h3 {
+  text-align: center;
+}
+
+.new-input-field {
+  width: 100%;
+}
+
+#new-button {
+  float: right;
 }

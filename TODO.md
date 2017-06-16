@@ -5,7 +5,7 @@
 - [x] Set up Firebase database
 - [x] List all members
 - [x] Member detail page
-- [ ] Add new members
+- [x] Add new members
 - [ ] Edit and remove members
 - [ ] About page
 - [ ] Pipe to filter by miles hiked
