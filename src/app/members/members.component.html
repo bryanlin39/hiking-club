@@ -2,6 +2,6 @@
 
 <h4>
   <ul *ngFor='let member of members | async'>
-    <li><span class='member-name'>{{member.name}}</span> - <small>{{member.age}} | {{member.location}}</small></li>
+    <li><span class='member-name' (click)='goToMemberDetail(member)'>{{member.name}}</span> - <small>{{member.age}} | {{member.location}}</small></li>
   </ul>
 </h4>

@@ -4,7 +4,7 @@
 - [x] Model for Member class - name, age, location, bio, date joined, miles hiked
 - [x] Set up Firebase database
 - [x] List all members
-- [ ] Member detail page
+- [x] Member detail page
 - [ ] Add new members
 - [ ] Edit and remove members
 - [ ] About page
