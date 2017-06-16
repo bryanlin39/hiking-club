@@ -1,10 +1,21 @@
 <h3 class='section-title'>Current Active Members</h3>
 
+<div *ngIf='currentRoute === "/members"'>
+  <h5>Filter By:</h5>
+  <select id='filter-bar' (change)='onChange($event.target.value)'>
+    <option value="allMembers">All Members</option>
+    <option value="beginners">Beginners</option>
+    <option value="intermediates" selected="selected">Middle Ones</option>
+    <option value="experts" selected="selected">Experts</option>
+  </select>
+</div>
+
 <h4>
-  <ul *ngFor='let member of members | async'>
+  <ul *ngFor='let member of members | async | experience:filterByExperience'>
     <li>
       <span class='member-name' (click)='goToMemberDetail(member)'>{{member.name}}</span> - <small>{{member.age}} | {{member.location}}</small>
       <button *ngIf='currentRoute === "/admin"' class='btn btn-primary btn-sm' (click)='goToUpdate(member)'>Update</button>
+      <button *ngIf='currentRoute === "/admin"' class='btn btn-danger btn-sm' (click)='beginDeletingMember(member)'>Remove</button>
     </li>
   </ul>
 </h4>

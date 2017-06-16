@@ -7,5 +7,6 @@ export class Member {
     public location: string,
     public bio: string,
     public date: string,
+    public experience: string
   ) { }
 }

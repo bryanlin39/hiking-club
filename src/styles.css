@@ -24,10 +24,15 @@
   text-align: center;
 }
 
-input, textarea {
+input, textarea, select {
   width: 100%;
 }
 
 #new-button {
   float: right;
+}
+
+#filter-bar {
+  width: 150px;
+  margin-bottom: 20px;
 }

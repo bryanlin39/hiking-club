@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { MemberService } from '../member.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-update-member',
@@ -10,13 +11,14 @@ import { MemberService } from '../member.service';
 export class UpdateMemberComponent implements OnInit {
   @Input() memberToUpdate;
 
-  constructor(private memberService: MemberService) { }
+  constructor(private memberService: MemberService, private router: Router) { }
 
   ngOnInit() {
   }
 
   beginUpdatingMember(member) {
     this.memberService.updateMember(member);
+    this.router.navigate(['/admin'])
   }
 
 }

@@ -1,6 +1,7 @@
 <div class='panel panel-default'>
   <div class='panel-heading'>
     <h3>{{(memberToDisplay | async)?.name}}</h3>
+    <p><em>{{(memberToDisplay | async)?.experience}}</em></p>
   </div>
 
   <div class='panel-body'>
@@ -13,7 +14,7 @@
       </div>
       <div class='col-md-6'>
         <h5><b>Date Joined: </b>{{(memberToDisplay | async)?.date}}</h5>
-        <h5><b>Miles Hiked: </b>{{(memberToDisplay | async)?.miles}}</h5>
+        <h5><b>Miles Hiked with NWHC: </b>{{(memberToDisplay | async)?.miles}}</h5>
       </div>
     </div><!-- row -->
   </div><!-- panel body -->

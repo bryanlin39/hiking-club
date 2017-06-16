@@ -15,9 +15,9 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(name: string, age: number, location: string, bio: string) {
+  submitForm(name: string, age: number, location: string, bio: string, experience: string) {
     var date: string = new Date().toDateString();
-    var newMember: Member = new Member(name, age, location, bio, date);
+    var newMember: Member = new Member(name, age, location, bio, date, experience);
     this.memberService.addMember(newMember);
   }
 

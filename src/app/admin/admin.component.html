@@ -30,7 +30,16 @@
       <textarea #newBio></textarea>
     </div>
 
-    <button class='btn btn-success' id='new-button' (click)='submitForm(newName.value, newAge.value, newLocation.value, newBio.value); newName.value=""; newAge.value=""; newLocation.value=""; newBio.value=""'>Add</button>
+    <div class='form-group'>
+      <label>Experience Level:</label><br>
+      <select #newExperience>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+    </div>
+
+    <button class='btn btn-success' id='new-button' (click)='submitForm(newName.value, newAge.value, newLocation.value, newBio.value, newExperience.value); newName.value=""; newAge.value=""; newLocation.value=""; newBio.value=""; newExperience.value="Beginner"'>Add</button>
   </div><!-- right column -->
 
 </div><!-- row -->

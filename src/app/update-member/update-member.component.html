@@ -25,6 +25,16 @@
     <textarea [(ngModel)]='memberToUpdate.bio'></textarea>
   </div>
 
+  <div class='form-group'>
+    <label>Experience Level:</label>
+    <br>
+    <select [(ngModel)]='memberToUpdate.experience'>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+    </select>
+  </div>
+
   <button class='btn btn-primary' (click)='beginUpdatingMember(memberToUpdate)'>Update</button>
 
 </div>

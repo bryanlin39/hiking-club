@@ -4,13 +4,15 @@
     "location": "Seattle, WA",
     "bio": "Looking for long treks to alpine lakes.",
     "date": "Mon Jun 5 2017",
-    "miles": 100
+    "miles": 100,
+    "experience": "Advanced"
   }, {
     "name": "Susie",
     "age": 23,
     "location": "Portland, OR",
     "bio": "New to hiking.",
     "date": "Fri Jun 9 2017",
-    "miles": 3
+    "miles": 3,
+    "experience": "Beginner"
   }]
 }
